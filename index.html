@@ -1,1 +1,47 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tip-Calculator</title>
+</head>
+<body>
+  
+   <div class="container">
+    <div class="innerpart">
+        <h1>TIP-CALCULATOR</h1>
+        <hr>
+    <label for="bill-amount">bill-amount :</label>
+   <input type="number" name="bill-amount" id="bill-amount">
+   <label for="tip-percentage">how was the services : </label>
+   <select id="tip-percentage">
+    <option selected="" disabled="" hidden="">
+        Select
+    </option>
+    <option value="0.05">5% - Terrible</option>
+    <option value="0.1">10% - Bad</option>
+    <option value="0.15">15% - It Was Ok</option>
+    <option value="0.2">20% - Good</option>
+    <option value="0.25">25% - Great</option>
+    <option value="0.3">30% - Outstanding</option>
+</select>
+<label for="peoples">no of peoples :</label>
+<input type="number" name="peoples" id="peoples">
+<button id="calculate">CALCULATE</button>
+   <!-- <input type="number" name="tip-percentage" id="tip-percentage"> -->
+   <div id="result">
+   <label  id="tip-amount"> </label>
+   <!-- <input type="number" name="tip-amount" id="tip-amount"> -->
+   <label  id="total-bill"></label>
+   <!-- <input type="number" name="total-bill" id="total-bill"> -->
+</div>
+   
+   
+   </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
